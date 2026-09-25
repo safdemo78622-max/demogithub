@@ -41,8 +41,7 @@ class Basic
         double y=in.nextDouble();
         Basic b=new Basic(x,y);
         b.inc();
-        b.display();
-        b.display(name);
+        println("After increment");
         in.close();
         
 
